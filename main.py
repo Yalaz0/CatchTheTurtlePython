@@ -12,21 +12,21 @@ ekran.setup(width=700, height=650)
 skor = 0
 sure = 30
 
-# Skor tablosu oluştur
+# Skor tablosu
 skor_tahtasi = turtle.Turtle()
 skor_tahtasi.hideturtle()
 skor_tahtasi.penup()
 skor_tahtasi.goto(-250, 250)
 skor_tahtasi.write(f"Skor: {skor}", align="left", font=("Arial", 16, "normal"))
 
-# Sayaç oluştur
+# Sayaç
 sayaç_tahtasi = turtle.Turtle()
 sayaç_tahtasi.hideturtle()
 sayaç_tahtasi.penup()
 sayaç_tahtasi.goto(200, 250)
 sayaç_tahtasi.write(f"Süre: {sure}", align="left", font=("Arial", 16, "normal"))
 
-# Tıklanacak kaplumbağa nesnesini oluştur
+# Tıklanacak kaplumbağa nesnesi
 tıklanacak_turtle = turtle.Turtle()
 tıklanacak_turtle.shape("turtle")
 tıklanacak_turtle.color("green")
